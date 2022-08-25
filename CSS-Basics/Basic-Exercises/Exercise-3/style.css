@@ -1,0 +1,14 @@
+.click-me, .no-me {
+	font-size: 28px;
+	font-family: Havetica, Time New Roman, sans-serif;
+}
+
+.click-me {
+	background-color: #000000;
+	color: #FFFF;
+}
+
+.no-me{
+	background-color: #E9D460;
+}
+
