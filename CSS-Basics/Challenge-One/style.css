@@ -1,0 +1,14 @@
+body {
+	background-color: #96ABE0;
+}
+
+ul {
+	text-align: center;
+	list-style: none;
+	margin: auto;
+}
+
+li::first-letter {
+	font-size: 24px;
+	font-weight: bold;
+}
