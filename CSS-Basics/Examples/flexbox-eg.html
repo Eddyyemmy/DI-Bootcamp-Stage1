@@ -1,0 +1,1894 @@
+<!DOCTYPE html>
+<!-- saved from url=(0086)http://learn.di-learning.com/courses/collection/40/course/166/section/521/chapter/1032 -->
+<html lang="en" class=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <!-- Basic Page Needs
+    ================================================== -->
+    <title>Developers Institute</title>
+    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Developers Institute - Global Software Development Bootcamp">
+
+    <!-- Favicon -->
+    <link href="http://learn.di-learning.com/static/theme/images/favicon.png" rel="icon" type="image/png">
+
+    
+    <!-- CSS 
+    ================================================== -->
+    <link rel="stylesheet" href="./flexbox-eg_files/style.css">
+    <link rel="stylesheet" href="./flexbox-eg_files/night-mode.css">
+    <link rel="stylesheet" href="./flexbox-eg_files/framework.css">
+    <link rel="stylesheet" href="./flexbox-eg_files/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./flexbox-eg_files/font-awesome.min.css">
+
+
+    
+<link rel="stylesheet" href="./flexbox-eg_files/courses_app.css">
+<link rel="stylesheet" href="./flexbox-eg_files/prism.css">
+<link rel="stylesheet" href="./flexbox-eg_files/color-brewer.min.css">
+<link rel="stylesheet" href="./flexbox-eg_files/slider.css">   
+
+
+
+    <!-- icons
+    ================================================== -->
+    <link rel="stylesheet" href="./flexbox-eg_files/icons.css">
+
+    
+<!-- Syntax Highlighter -->
+<link rel="stylesheet" type="text/css" href="./flexbox-eg_files/shCore.css" media="all">
+<link rel="stylesheet" type="text/css" href="./flexbox-eg_files/shCoreMidnight.css" media="all">
+<style>
+    .gutter,
+    .toolbar {
+        display: none
+    }
+
+    .syntaxhighlighter {
+        padding: 15px 20px;
+    }
+
+    .syntaxhighlighter {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+        padding: 0 !important;
+        padding-top: 18px !important;
+    }
+
+</style>
+
+
+    </head>
+
+<body>
+    <div id="wrapper">
+
+        
+<!-- To clear the header loaded in base -->
+
+
+        
+            
+
+<div class="side-nav uk-animation-slide-left-medium">
+
+    <div class="side-nav-bg"></div>
+
+    <!-- logo -->
+    <div class="logo uk-visible@s">
+        <ul>
+            <li>
+                <a href="http://learn.di-learning.com/courses"><img src="./flexbox-eg_files/logo_di.png" alt=""> <span class="tooltips"> My Courses</span> </a>
+            </li>
+        </ul>
+    </div>
+
+    <ul>
+        
+        <li><a href="http://learn.di-learning.com/calendar"> <i class="icon-feather-calendar"></i> <span class="tooltips">Calendar</span></a></li>
+        
+        
+        <li><a href="http://learn.di-learning.com/leaderboards"> <i class="icon-feather-star"></i> <span class="tooltips">Leaderboard</span></a></li>
+        
+        
+        <li><a href="http://slack.developers.institute/" target="_blank"> <i class="icon-feather-slack"></i> <span class="tooltips">Slack</span></a></li>
+        
+        <li><a href="http://blog.developers.institute/" target="_blank"> <i class="uil-file-alt"></i> <span class="tooltips">Blog</span></a></li>
+        <li>
+            <a href="http://learn.di-learning.com/courses/collection/40/course/166/section/521/chapter/1032#"> <i class="uil-books"></i> </a>
+            <div class="side-menu-slide">
+                <div class="side-menu-slide-content">
+                    <ul uk-accordion="" class="uk-accordion">
+                        <li style="padding-top: 15px;">
+                                <a><h6>Learn More</h6></a>
+                                <a href="https://developers.institute/index.php/portfolios/coding-bootcamp-tlv/" target="_blank">Full Stack Python</a>
+                                <a href="https://developers.institute/index.php/portfolios/online-live-bootcamp/" target="_blank">Full Stack JavaScript</a>
+                                <a href="https://developers.institute/index.php/portfolios/summer-camp-2020/" target="_blank">Summer Camp</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </li>
+        <li>
+            <a href="http://learn.di-learning.com/courses/collection/40/course/166/section/521/chapter/1032#"><i class="uil-question-circle"></i></a>
+            <div class="side-menu-slide">
+                <div class="side-menu-slide-content">
+                    <ul uk-accordion="" class="uk-accordion">
+                        <li style="padding-top: 15px;">
+                                <a><h6>About DI</h6></a>
+                                <a href="https://developers.institute/" target="_blank">Home page </a>
+                                <a href="https://developers.institute/en/our-coding-bootcamp-courses-tel-aviv-coding-bootcamp-full-stack/" target="_blank">Our Courses</a>
+                                <a href="https://developers.institute/index.php/dates-tuition/" target="_blank">Dates &amp; Tuition </a>
+                                <a href="https://developers.institute/index.php/blog/" target="_blank">Blog</a>
+                                <a href="http://learn.di-learning.com/terms">Terms &amp; Conditions</a>
+                                <a href="http://learn.di-learning.com/privacy">Privacy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </li>
+    </ul>
+    
+</div>
+        
+        
+        
+<div class="page-content">
+    
+    <div class="uk-grid-collapse uk-grid" uk-grid="">
+        <div class="uk-width-3-4@m bg-white uk-first-column">
+            
+            <!-- video description contents -->
+            <div class="p-lg-5 p-3" style="width:80%; margin:auto;">
+                
+                <div style="margin-top:-27px; margin-bottom:23px;">
+                    
+<nav id="breadcrumbs">
+    <ul>
+        <li><a href="http://learn.di-learning.com/courses"><i class="icon-feather-home"></i></a></li>
+        <li><a href="http://learn.di-learning.com/courses/collection/40">Extra - Bootcamp prep+</a></li>
+        <li><a href="http://learn.di-learning.com/courses/collection/40/course/166">Learn CSS</a></li>
+        <li><a href="http://learn.di-learning.com/courses/collection/40/course/166/section/521">CSS Intermediate</a></li>
+        <li><a href="http://learn.di-learning.com/courses/collection/40/course/166/section/521/chapter/1032">🎓Flexbox</a></li>
+    </ul>
+</nav>
+
+                </div>
+                
+
+                <div style="display: flex;">
+                    <div style="width: 80%;">
+                        
+                        <h2>🎓Flexbox</h2>
+                        
+                    </div>
+                    
+                        
+                            <div section-id="521" style="width: 30%; display: flex; justify-content: flex-end; align-items: center;">
+                                
+                                    
+                                    <span class="btn btn-secondary" id="chapter-done" chapter-id="1032" done="0" style="">Not Completed</span>
+                                    
+                                
+                            </div>
+                        
+                    
+                </div>
+                
+                <div style="width: 20%;">
+                    
+                </div>
+                
+
+                <hr class="my-2">
+                <div uk-toggle="cls: uk-flex uk-flex-between@m uk-flex-middle; mode: media; media: @m" class=""><div>
+            </div>
+        </div>
+
+        <div>
+            
+            
+            <div id="toc">
+                <h3>Table of Contents</h3>
+            <ul><li><a href="http://learn.di-learning.com/courses/collection/40/course/166/section/521/chapter/1032#Objectives:">Objectives:</a></li><ul><ul><li><a href="http://learn.di-learning.com/courses/collection/40/course/166/section/521/chapter/1032#Flexbox">Flexbox</a></li><li><a href="http://learn.di-learning.com/courses/collection/40/course/166/section/521/chapter/1032#When_to_Use_Flexbox">When to Use Flexbox</a></li><li><a href="http://learn.di-learning.com/courses/collection/40/course/166/section/521/chapter/1032#Flexbox_axis">Flexbox axis</a></li><li><a href="http://learn.di-learning.com/courses/collection/40/course/166/section/521/chapter/1032#Flexbox_properties">Flexbox properties</a></li><ul><li><a href="http://learn.di-learning.com/courses/collection/40/course/166/section/521/chapter/1032#I._Flex_properties_on_the_flex_container">I. Flex properties on the flex container</a></li><ul><li><a href="http://learn.di-learning.com/courses/collection/40/course/166/section/521/chapter/1032#Display">Display</a></li><li><a href="http://learn.di-learning.com/courses/collection/40/course/166/section/521/chapter/1032#Flex-direction">Flex-direction</a></li><li><a href="http://learn.di-learning.com/courses/collection/40/course/166/section/521/chapter/1032#Justify-content">Justify-content</a></li><li><a href="http://learn.di-learning.com/courses/collection/40/course/166/section/521/chapter/1032#Align-items">Align-items</a></li><li><a href="http://learn.di-learning.com/courses/collection/40/course/166/section/521/chapter/1032#Flex-wrap">Flex-wrap</a></li><li><a href="http://learn.di-learning.com/courses/collection/40/course/166/section/521/chapter/1032#Align-Content">Align-Content</a></li></ul><li><a href="http://learn.di-learning.com/courses/collection/40/course/166/section/521/chapter/1032#II._Flex_properties_on_the_flex_items">II. Flex properties on the flex items</a></li><ul><li><a href="http://learn.di-learning.com/courses/collection/40/course/166/section/521/chapter/1032#Order">Order</a></li><li><a href="http://learn.di-learning.com/courses/collection/40/course/166/section/521/chapter/1032#Align-self">Align-self</a></li><li><a href="http://learn.di-learning.com/courses/collection/40/course/166/section/521/chapter/1032#Other_properties_on_the_flex_items">Other properties on the flex items</a></li></ul></ul><li><a href="http://learn.di-learning.com/courses/collection/40/course/166/section/521/chapter/1032#Resources">Resources</a></li><li><a href="http://learn.di-learning.com/courses/collection/40/course/166/section/521/chapter/1032#Flexbox_example">Flexbox example</a></li><li><a href="http://learn.di-learning.com/courses/collection/40/course/166/section/521/chapter/1032#Bibliography">Bibliography</a></li></ul></ul><li><a href="http://learn.di-learning.com/courses/collection/40/course/166/section/521/chapter/1032#Feedback">Feedback</a></li></ul></div>
+            <hr>
+            
+
+            <div id="chapter-contents">
+
+                    
+
+                    
+
+                    
+                    <p class="lead"></p><h1><a name="Objectives:">Objectives:</a></h1>
+<p>By the end of this chapter, you should be able to:</p>
+<ul>
+<li>Understand what flexbox is and how it differs from other forms of layout</li>
+<li>Use flexbox to build more complex layouts</li>
+</ul>
+<p><br></p>
+<hr>
+<h3><a name="Flexbox">Flexbox</a></h3>
+<p>What, exactly, is flexbox? Let’s turn to the <a class="hi-vis" href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox" target="_blank">MDN documentation</a> for an overview:</p>
+<p>The CSS3 Flexible Box, or flexbox, is a <strong>layout mode providing for the arrangement of elements on a page</strong> such that the elements behave predictably when the page layout must <strong>accommodate different screen sizes and different display devices</strong>. For many applications, the flexible box model provides an improvement over the block model in that it does not use floats, nor do the flex container’s margins collapse with the margins of its contents.</p>
+<p>Many designers will find the flexbox model easier to use. </p>
+<ul>
+<li><strong>Child elements in a flexbox can be laid out in any direction and can have flexible dimensions to adapt to the display space</strong>. </li>
+<li>Positioning child elements is thus much easier, and complex layouts can be achieved more simply and with cleaner code, as the display order of the elements is independent of their order in the source code. </li>
+<li>This independence intentionally affects only the visual rendering, leaving speech order and navigation based on the source order.</li>
+</ul>
+<hr>
+<p>In conclusion,<br>
+Flexbox stands for flexible box. It’s a layout module for CSS aimed at giving you an efficient way to arrange, organize, and size website elements to create highly adaptive designs.</p>
+<p>You can read more about flexbox <a class="hi-vis" href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox" target="_blank">in the MDN Documentation</a> , <a class="hi-vis" href="https://learnlayout.com/flexbox.html" target="_blank">in the LearnLayout website</a>  and <a class="hi-vis" href="https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties" target="_blank">in the scotch.io tutorial</a>. </p>
+<p><br></p>
+<hr>
+<h3><a name="When_to_Use_Flexbox">When to Use Flexbox</a></h3>
+<p>Flexbox is most appropriate for small-scale layouts and applications, such as:</p>
+<ul>
+<li>navigation menus</li>
+<li>card layouts</li>
+<li>media items</li>
+<li>web forms</li>
+</ul>
+<p><br></p>
+<hr>
+<h3><a name="Flexbox_axis">Flexbox axis</a></h3>
+<p>The way flexbox works is quite simple on the surface: You have a container (<strong>flex container</strong>) with children (any elements contained within, called <strong>flex items</strong>), which are placed along <strong>flex lines</strong>.</p>
+<p>Lines and items can be manipulated in layout, size, spacing, and more along both the vertical and horizontal axis using a multitude of operators. This allows you to best take advantage of the available space and lets elements arrange themselves automatically according to it.</p>
+<p><img alt="css-flexbox-schematic" src="./flexbox-eg_files/152180473-c1b703de-cc94-4a8b-9513-f36adea25b49.jpg"></p>
+<p><br></p>
+<ul>
+<li>
+<p><strong>main axis</strong> — This is the axis at which the items are laid out. Important: it can be both vertical or horizontal, depending on the <code>flex-direction</code> property.</p>
+</li>
+<li>
+<p><strong>cross axis</strong> — The axis perpendicular to the main axis. Its direction, too, depends on how the main axis is defined.</p>
+</li>
+<li>
+<p><strong>writing-mode</strong> — Allows you to switch the direction of writing from left-to-right to right-to-left or even to vertical. It’s a work in progress with little to no browser support, however, it’s important to know for some of the properties further below.</p>
+</li>
+</ul>
+<p><br></p>
+<hr>
+<h3><a name="Flexbox_properties">Flexbox properties</a></h3>
+<p><br></p>
+<hr>
+<h4><a name="I._Flex_properties_on_the_flex_container">I. Flex properties on the flex container</a></h4>
+<hr>
+<h5><a name="Display">Display</a></h5>
+<p>We’ve seen this property before. It turns out that this property is of fundamental importance when you want to use flexbox. </p>
+<p>To start using flexbox, you need to set the <code>display</code> property of an element either to <code>flex</code> or <code>inline-flex</code> to make your elements inline. </p>
+<p>The distinction here is similar to the distinction between <code>block</code> and <code>inline-block</code>; <a class="hi-vis" href="https://stackoverflow.com/questions/27418104/whats-the-difference-between-displayinline-flex-and-displayflex" target="_blank">check out this Stack Overflow question</a>  for more details.</p>
+<p><br></p>
+<hr>
+<h5><a name="Flex-direction">Flex-direction</a></h5>
+<p>This defines the <strong>main axis</strong> and, as a consequence, the direction in which your flex items are placed. This also allows you to change the order of items, which is used to alter the underlying HTML.</p>
+<p>Available properties are:</p>
+<ul>
+<li><code>row</code> — The default. Arranges flex items left to right unless you are in a right-to-left environment due to <strong>writing mode</strong>.</li>
+<li><code>row-reverse</code> — Arranges items horizontally but in reversed order.</li>
+<li><code>column</code> — The same as row but vertical with items arranged top to bottom.</li>
+<li><code>column-reverse</code> — Displays items bottom to top.</li>
+</ul>
+<p><br></p>
+<p><img alt="flex direction" src="./flexbox-eg_files/152180906-72effb74-e9bf-4c33-887b-2bef48b27ed1.jpg" style="width:400px"></p>
+<p><br></p>
+<p><img alt="flexdirection" src="./flexbox-eg_files/152180554-5115f4f6-a72b-4385-b46e-c27b44171531.gif"></p>
+<p><br></p>
+<hr>
+<h5><a name="Justify-content">Justify-content</a></h5>
+<p>The <code>justify-content</code> property defines the <strong>item alignment on the <em>main axis</em></strong>. It decides what happens with any available free space and has some control over the alignment when items get wider than their container. </p>
+<ul>
+<li>If the <code>flex-direction</code> is <code>column</code> or <code>column-reverse</code>, <code>justify-content</code> refers to the <strong>vertical</strong> axis, </li>
+<li>If the <code>flex-direction</code> is <code>row</code> or <code>row-reverse</code>, <code>justify-content</code> refers to the <strong>horizontal</strong> axis.</li>
+</ul>
+<p>Here are the values you can choose from:</p>
+<ul>
+<li><code>flex-start</code> — Default value. Items align towards the front of flex-direction.</li>
+<li><code>flex-end</code> — Places items at the end of flex-direction.</li>
+<li><code>center</code> — Items center horizontally.</li>
+<li><code>space-between</code> — Distributes items evenly within the container. The first towards the start, the last toward its end with even space between them.</li>
+<li><code>space-around</code> — Items are evenly placed with equal space around them. Note that it behaves like margin or padding where you have double the space between items as towards the edges.</li>
+<li><code>space-evenly</code> — Items reside evenly placed within the container but the spacing between each and toward the container edges is even.</li>
+</ul>
+<p><u>Justify-content when the <code>flex-direction:row</code></u></p>
+<p><br></p>
+<p><img alt="justify-content-flexdirectionrow" src="./flexbox-eg_files/152181181-61152ac4-6389-4193-a6a8-e4ba01e8ce34.png" style="width:300px"></p>
+<p><br></p>
+<p><u>Justify-content when the <code>flex-direction:column</code></u></p>
+<p><br></p>
+<p><img alt="justify-content-flexdirectioncolumn" src="./flexbox-eg_files/152181129-39f9257f-3064-4390-a41c-ce790cd3f301.jpg" style="width:400px"></p>
+<p><br></p>
+<hr>
+<h5><a name="Align-items">Align-items</a></h5>
+<p>This property controls how <strong>items align across the <em>cross axis</em></strong>. </p>
+<ul>
+<li>If the <code>flex-direction</code> is <code>column</code> or <code>column-reverse</code>, <code>align-items</code> refers to the <strong>horizontal</strong> axis, </li>
+<li>If the <code>flex-direction</code> is <code>row</code> or <code>row-reverse</code>, <code>align-items</code> refers to the <strong>vertical</strong> axis.</li>
+</ul>
+<p>Here are the available values:</p>
+<ul>
+<li><code>stretch</code> — Default value that stretches items to fill the container.</li>
+<li><code>flex-start</code>, <code>start</code>, <code>self-start</code> — Aligns flex items at the start of the cross axis. <code>start</code> and <code>self-start</code> adhere to <code>flex-direction</code> and <strong>writing-mode</strong> respectively.</li>
+<li><code>flex-end</code>, <code>end</code>, <code>self-end</code> — The same as above but placing items at the end of the cross axis.</li>
+<li><code>center</code> — Items reside at the center of the cross axis.</li>
+<li><code>baseline</code> — Aligns flex items along their baselines.</li>
+</ul>
+<p><u>Align-items when the <code>flex-direction:row</code></u></p>
+<p><br></p>
+<p><img alt="align-items-flexdirectionrow" src="./flexbox-eg_files/152181301-29f88367-a78f-4a79-88f2-a7df29b38029.png" style="width:300px"></p>
+<p><br></p>
+<p><u>Align-items when the <code>flex-direction:column</code></u></p>
+<p><br></p>
+<p><img alt="align-items-flexdirectioncolumn" src="./flexbox-eg_files/152181240-a7fde3b5-3b06-4ecb-9df1-3f36672f8a72.jpg" style="width:400px"></p>
+<p><br></p>
+<hr>
+<h5><a name="Flex-wrap">Flex-wrap</a></h5>
+<p>The default behavior of items within a flex container is to arrange themselves in <strong>one row</strong>. <br>
+<code>flex-wrap</code> allows you to change that.</p>
+<ul>
+<li><code>nowrap</code> — The default value that places all items in one line.</li>
+<li><code>wrap</code> — If a single line isn’t enough, with this, items will arrange themselves into multiple lines from top to bottom.</li>
+<li><code>wrap-reverse</code> — Same as wrap but with items ordered from bottom to top.</li>
+</ul>
+<p>When items in a flex container get too wide, what should happen? This property lets you tell the browser whether it should allow flex elements to wrap onto a new line, or whether they should just shrink in order to fit on the same line. Fore more on this, <a class="hi-vis" href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap" target="_blank">check out MDN</a>.</p>
+<p><br></p>
+<p><img alt="flexwrap" src="./flexbox-eg_files/152180630-f8051cf8-f5dc-4d20-8982-0cef5f01256a.png"></p>
+<p><br></p>
+<hr>
+<h5><a name="Align-Content">Align-Content</a></h5>
+<p><code>align-content</code> : This property is responsible for controlling flex lines if there is extra space available on the <strong>cross axis</strong>. <br>
+<strong>You need more than one row of items</strong> for the values below to take effect.</p>
+<p><br></p>
+<p><img alt="align-content" src="./flexbox-eg_files/152181053-04d625c9-61f9-476e-a73f-bdfa38038568.png"></p>
+<p><br></p>
+<p><img alt="align-content (2)" src="./flexbox-eg_files/152180990-cf11ca65-b524-4cd0-9fca-cfa9b279b9d7.png" style="width:500px"></p>
+<p><br></p>
+<hr>
+<h4><a name="II._Flex_properties_on_the_flex_items">II. Flex properties on the flex items</a></h4>
+<hr>
+<h5><a name="Order">Order</a></h5>
+<p>This rule apply to <strong><em>flex items</em> instead of the container</strong>. The <code>order</code> property controls in which order items appear inside their container.</p>
+<p>The default value for all flex items is <code>order: 0</code><br>
+If you want to move a particular item to the front or back of the line, you can do so by giving it a value like 1 or -1. <br>
+This also works across row or column boundaries unlike <code>row-reverse</code> or <code>column-reverse</code> which will reverse the order per line individually.</p>
+<p>Here’s the code for the example image above:</p>
+<div style="background-color: #f54257;
+  padding: 7px;
+  border-radius : 10px 10px 0px 0px;
+  font-weight: bold;
+  color:white;
+  font-size:13px;
+  font-family: &#39;Rubik&#39;, sans-serif;">HTML - <code>index.html</code></div>
+
+<pre><code class="html hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"order: 3"</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"order: 2"</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"order: 4"</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"order: 1"</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+
+<p><br></p>
+<p><img alt="flexbox-order-example" src="./flexbox-eg_files/152181381-012d0534-4934-47f1-9d50-cb4f555ece72.jpg"></p>
+<p><br></p>
+<hr>
+<h5><a name="Align-self">Align-self</a></h5>
+<p>This property allows you to overwrite the value of <code>align-items</code> for particular elements. It accepts the same values as <code>align-items</code>.</p>
+<ul>
+<li><code>flex-start</code>: cross-start margin edge of the item is placed on the cross-start line</li>
+<li><code>flex-end</code> : cross-end margin edge of the item is placed on the cross-end line</li>
+<li><code>center</code> : item is centered in the cross-axis</li>
+<li><code>baseline</code> : items are aligned such as their baseline are aligned</li>
+<li><code>stretch</code> (default): stretch to fill the container (still respect min-width/max-width)</li>
+</ul>
+<p><br></p>
+<p><img alt="align-self" src="./flexbox-eg_files/152180788-ac1308db-5e6d-4913-94ba-6dcca239a43c.jpg" style="width:400px"></p>
+<p><br></p>
+<hr>
+<h5><a name="Other_properties_on_the_flex_items">Other properties on the flex items</a></h5>
+<ul>
+<li>
+<p><code>flex-basis</code> - This lets you manually set the size of a flexbox element’s content box. At first glance it may seem like it’s synonymous with the <code>width</code> property, but this isn’t always the case. For more details, read <a class="hi-vis" href="https://stackoverflow.com/questions/34352140/what-are-the-differences-between-flex-basis-and-width" target="_blank">this Stack Overflow question</a>.</p>
+</li>
+<li>
+<p><code>flex-grow</code> - This lets you set proportional sizes of flex items within the same container. For example, an element with a <code>flex-grow</code> value of 2 will take up twice as much space as an element with a <code>flex-grow</code> value of 1.</p>
+</li>
+<li>
+<p><code>flex-shrink</code> - Similar to <code>flex-grow</code>, but for shrinking elements when there’s not enough space. A useful demo of this property is available at <a class="hi-vis" href="https://css-tricks.com/almanac/properties/f/flex-shrink/" target="_blank">CSS Tricks</a>.</p>
+</li>
+<li>
+<p><code>flex</code> - This is a shorthand which lets you set <code>flex-grow</code>, <code>flex-shrink</code>, and <code>flex-basis</code> all in one line (similar to the <code>border</code> property, which lets you set <code>border-width</code>, <code>border-style</code>, and <code>border-color</code>).</p>
+</li>
+</ul>
+<p><br></p>
+<hr>
+<h3><a name="Resources">Resources</a></h3>
+<p>You saw a few gifs in this lesson, to see more gifs on flexbox look at the <a class="hi-vis" href="https://medium.com/free-code-camp/an-animated-guide-to-flexbox-d280cf6afc35" target="_blank">medium article</a> and at this <a class="hi-vis" href="https://jstutorial.medium.com/flexbox-the-animated-tutorial-8075cbe4c1b2" target="_blank">other medium article</a></p>
+<p><br></p>
+<hr>
+<h3><a name="Flexbox_example">Flexbox example</a></h3>
+<p>Here’s a fairly standard HTML file, with a few divs and some content. If you open this up in the browser (ignoring the stylesheet for now), you shouldn’t see any surprises.</p>
+<p><br></p>
+<div style="background-color: #f54257;
+  padding: 7px;
+  border-radius : 10px 10px 0px 0px;
+  font-weight: bold;
+  color:white;
+  font-family: &#39;Rubik&#39;, sans-serif;">HTML - <code>index.html</code></div>
+
+<pre><code class="html hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">charset</span>=<span class="hljs-string">"UTF-8"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">link</span> <span class="hljs-attr">rel</span>=<span class="hljs-string">"stylesheet"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"style.css"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>Document<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"container"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"first"</span>&gt;</span>
+      First
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"second"</span>&gt;</span>
+      Second
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"third"</span>&gt;</span>
+      Third
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"fourth"</span>&gt;</span>
+      Fourth
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"fifth"</span>&gt;</span>
+      Fifth
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"sixth"</span>&gt;</span>
+      Sixth
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span>
+</code></pre>
+
+<p><br></p>
+<p>Now let’s style this page using flexbox. Put the following code inside of a file named <code>style.css</code>. You’ll probably notice quite a few new properties and values in this code. Don’t worry, you’ll learn about these momentarily!</p>
+<p><br></p>
+<div style="background-color:#3176de;
+  padding: 7px;
+  border-radius : 10px 10px 0px 0px;
+  font-weight: bold;
+  color:white;
+  font-family: &#39;Rubik&#39;, sans-serif;">CSS - <code>style.css</code></div>
+
+<pre><code class="css hljs">* {
+  <span class="hljs-attribute">box-sizing</span>: border-box
+}
+
+<span class="hljs-selector-tag">div</span> {
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">100px</span>;
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">100px</span>;
+  <span class="hljs-attribute">color</span>:black;
+  <span class="hljs-attribute">border</span>:<span class="hljs-number">1px</span> solid black
+}
+
+<span class="hljs-selector-class">.container</span> {
+  <span class="hljs-attribute">display</span>: flex;
+  <span class="hljs-comment">/*FLEX DIRECTION - can reverse etc*/</span>
+  <span class="hljs-attribute">flex-direction</span>: column;
+  <span class="hljs-attribute">background</span>: <span class="hljs-number">#F60009</span>;
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">500px</span>;
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">500px</span>;
+}
+
+<span class="hljs-selector-class">.first</span> {
+  <span class="hljs-attribute">display</span>: flex;
+  <span class="hljs-attribute">background</span>: <span class="hljs-number">#53007A</span>;
+  <span class="hljs-comment">/*VERTICAL*/</span>
+  <span class="hljs-attribute">align-items</span>: center;
+  <span class="hljs-comment">/*HORIZONTAL*/</span>
+  <span class="hljs-attribute">justify-content</span>: space-around;
+  <span class="hljs-comment">/*ORDER  -1 first, highest last */</span>
+  <span class="hljs-attribute">order</span>: <span class="hljs-number">1</span>;
+  <span class="hljs-attribute">color</span>:white;
+}
+
+<span class="hljs-selector-class">.second</span> {
+  <span class="hljs-attribute">background</span>: <span class="hljs-number">#FC9709</span>;
+}
+
+<span class="hljs-selector-class">.third</span> {
+  <span class="hljs-attribute">background</span>: pink;
+  <span class="hljs-attribute">align-self</span>: flex-end;
+}
+
+<span class="hljs-selector-class">.fourth</span> {
+  <span class="hljs-attribute">background</span>: <span class="hljs-number">#8BE7E6</span>;
+}
+
+<span class="hljs-selector-class">.fifth</span> {
+  <span class="hljs-attribute">background</span>: <span class="hljs-number">#93B112</span>;
+}
+
+<span class="hljs-selector-class">.sixth</span> {
+  <span class="hljs-attribute">background</span>: <span class="hljs-number">#E6F0BA</span>;
+  <span class="hljs-attribute">order</span>: -<span class="hljs-number">1</span>;
+}
+</code></pre>
+
+<p><br></p>
+<p>See what this looks like below:<br>
+Click <a class="hi-vis" href="https://codepen.io/avnermaman/pen/RwGPPRg" target="_blank">here</a> to access the Codepen Demonstration</p>
+<div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="657" width="100%" name="cp_embed_1" scrolling="no" src="./flexbox-eg_files/RwGPPRg(1).html" style="width: 100%; overflow:hidden; display:block;" title="Flexbox" loading="lazy" id="cp_embed_RwGPPRg"></iframe></div>
+
+<script async="" src="./flexbox-eg_files/ei.js.download"></script>
+
+<p><br></p>
+<hr>
+<h3><a name="Bibliography">Bibliography</a></h3>
+<ul>
+<li><code>https://css-tricks.com/</code></li>
+<li><code>https://torquemag.io/</code></li>
+<li><code>https://medium.com/</code> </li>
+<li><code>https://jstutorial.medium.com</code></li>
+<li><code>https://stackoverflow.com</code></li>
+<li><code>https://ishadeed.com/</code></li>
+<li><code>https://dev.to/joyshaheb</code></li>
+<li><code>https://www.samanthaming.com/</code></li>
+</ul>
+<!--https://dev.to/joyshaheb/flexbox-cheat-sheets-in-2021-css-2021-3edl-->
+
+<!--https://ishadeed.com/article/css-flex-property/-->
+
+<!--https://stackoverflow.com/questions/59481712/flexbox-reverse-direction-on-wrap-snake-wrap-->
+
+<!--https://jstutorial.medium.com/flexbox-the-animated-tutorial-8075cbe4c1b2-->
+
+<!--https://torquemag.io/2020/02/flexbox-tutorial/-->
+
+<!-- https://medium.com/free-code-camp/an-animated-guide-to-flexbox-d280cf6afc35-->
+
+<!--# Objectives:-->
+
+<!--By the end of this chapter, you should be able to:-->
+
+<!--* Understand what flexbox is and how it differs from other forms of layout-->
+
+<!--* Use flexbox to build more complex layouts-->
+
+<!--<br>-->
+
+<!------->
+
+<!--### Flexbox-->
+
+<!--We've mentioned flexbox a few times already in this unit. But what, exactly, is flexbox? Let's turn to the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox) for an overview:-->
+
+<!-- The CSS3 Flexible Box, or flexbox, is a layout mode providing for the arrangement of elements on a page such that the elements behave predictably when the page layout must accommodate different screen sizes and different display devices. For many applications, the flexible box model provides an improvement over the block model in that it does not use floats, nor do the flex container's margins collapse with the margins of its contents.-->
+
+<!-- Many designers will find the flexbox model easier to use. Child elements in a flexbox can be laid out in any direction and can have flexible dimensions to adapt to the display space. Positioning child elements is thus much easier, and complex layouts can be achieved more simply and with cleaner code, as the display order of the elements is independent of their order in the source code. This independence intentionally affects only the visual rendering, leaving speech order and navigation based on the source order.-->
+
+<!--You can read more about flexbox [here](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox) , [here](https://learnlayout.com/flexbox.html)  and [here](https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties) . For now, let's look at a simple example. Here's a fairly standard HTML file, with a few divs and some content. If you open this up in the browser (ignoring the stylesheet for now), you shouldn't see any surprises.-->
+
+<!--```-->
+
+<!--<!DOCTYPE html>-->
+
+<!--<html lang="en">-->
+
+<!--<head>-->
+
+<!--  <meta charset="UTF-8">-->
+
+<!--  <link rel="stylesheet" href="style.css">-->
+
+<!--  <title>Document</title>-->
+
+<!--</head>-->
+
+<!--<body>-->
+
+<!--  <div class="container">-->
+
+<!--    <div class="first">-->
+
+<!--      First-->
+
+<!--    </div>-->
+
+<!--    <div class="second">-->
+
+<!--      Second-->
+
+<!--    </div>-->
+
+<!--    <div class="third">-->
+
+<!--      Third-->
+
+<!--    </div>-->
+
+<!--    <div class="fourth">-->
+
+<!--      Fourth-->
+
+<!--    </div>-->
+
+<!--    <div class="fifth">-->
+
+<!--      Fifth-->
+
+<!--    </div>-->
+
+<!--    <div class="sixth">-->
+
+<!--      Sixth-->
+
+<!--    </div>-->
+
+<!--  </div>-->
+
+<!--</body>-->
+
+<!--</html>-->
+
+<!--```-->
+
+<!--Now let's style this page using flexbox. Put the following code inside of a file named `style.css`. You'll probably notice quite a few new properties and values in this code. Don't worry, you'll learn about these momentarily!-->
+
+<!--```-->
+
+<!--div {-->
+
+<!--  width: 100px;-->
+
+<!--  height: 100px;-->
+
+<!--  color:white;-->
+
+<!--}-->
+
+<!--.container {-->
+
+<!--  display: flex;-->
+
+<!--  /*FLEX DIRECTION - can reverse etc*/-->
+
+<!--  flex-direction: column;-->
+
+<!--  background: #F60009;-->
+
+<!--  height: 500px;-->
+
+<!--  width: 500px;-->
+
+<!--}-->
+
+<!--.first {-->
+
+<!--  display: flex;-->
+
+<!--  background: #53007A;-->
+
+<!--  /*VERTICAL*/-->
+
+<!--  align-items: center;-->
+
+<!--  /*HORIZONTAL*/-->
+
+<!--  justify-content: space-around;-->
+
+<!--  /*ORDER  -1 first, highest last */-->
+
+<!--  order: 1;-->
+
+<!--}-->
+
+<!--.second {-->
+
+<!--  background: #FC9709;-->
+
+<!--}-->
+
+<!--.third {-->
+
+<!--  background: #A800DF;-->
+
+<!--  align-self: flex-end;-->
+
+<!--}-->
+
+<!--.fourth {-->
+
+<!--  background: #8BE7E6;-->
+
+<!--}-->
+
+<!--.fifth {-->
+
+<!--  background: #93B112;-->
+
+<!--}-->
+
+<!--.sixth {-->
+
+<!--  background: #E6F0BA;-->
+
+<!--  order: -1;-->
+
+<!--}-->
+
+<!--```-->
+
+<!--See what this looks like below:-->
+
+<!--<p class="codepen" data-height="657" data-theme-id="dark" data-default-tab="css,result" data-user="avnermaman" data-slug-hash="RwGPPRg" style="height: 657px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Flexbox">-->
+
+<!--  <span>See the Pen <a href="https://codepen.io/avnermaman/pen/RwGPPRg">-->
+
+<!--  Flexbox</a> by avnermaman (<a href="https://codepen.io/avnermaman">@avnermaman</a>)-->
+
+<!--  on <a href="https://codepen.io">CodePen</a>.</span>-->
+
+<!--</p>-->
+
+<!--<script async src="https://static.codepen.io/assets/embed/ei.js"></script>-->
+
+<!--<br>-->
+
+<!--Here's a quick rundown of some of the new things in this code (along with some other common flexbox properties and values):-->
+
+<!--<br>-->
+
+<!--`display` - We've seen this property before. It turns out that this property is of fundamental importance when you want to use flexbox. To start using flexbox, you need to set the `display` property of an element either to `flex` or `inline-flex` to make your elements inline. (The distinction here is similar to the distinction between `block` and `inline-block`; [check out this Stack Overflow question](https://stackoverflow.com/questions/27418104/whats-the-difference-between-displayinline-flex-and-displayflex)  for more details.)-->
+
+<!--<br>-->
+
+<!--`flex-direction` - with the `row` value this will layout items in a row, and with the `column` value it will lay elements out in a column. The default value is `row`. These values can also have a `-reverse` added to them (`row-reverse` / `column-reverse` ) to reverse the ordering.-->
+
+<!--<br>-->
+
+<!--`justify-content` - this affects the space along the `flex-direction`. You can think of this as the horizontal alignment: -->
+
+<!--- left -> `flex-start`-->
+
+<!--- center -> `center` -->
+
+<!--- right -> `flex-end`-->
+
+<!--- even amount of space between elements -> `space-between`-->
+
+<!--- even amount of space around elements -> `space-around`-->
+
+<!--This image, taken from an CSS-Tricks [article](https://css-tricks.com/almanac/properties/j/justify-content/)  on `justify-content`, does a good job illustrating the difference between the values listed above:-->
+
+<!-- ![](https://developers.institute/wp-content/uploads/2020/11/csss.png) -->
+
+<!--Note that when the `flex-direction` is `column` or `column-reverse`, `justify-content` refers to the vertical axis, not the horizontal.-->
+
+<!--`align-items` - this affects the space perpendicular to `flex-direction`. You can think of this as the vertical alignment:-->
+
+<!--- top -> `flex-start`-->
+
+<!--- center -> `center` -->
+
+<!--- bottom -> `flex-end`-->
+
+<!--(There are a few other possible values, check the [docs](https://developer.mozilla.org/en-US/docs/Web/CSS/align-items)  if you're curious.)-->
+
+<!--<br>-->
+
+<!--Note that when the `flex-direction` is column or `column-reverse`, `align-items` refers to the horizontal axis, not the vertical.-->
+
+<!--`order` - this property allows you to order items based on their position in the DOM. The order will start at 0, so anything lower will go higher and anything higher will go lower in the order. See the HTML and CSS above for some examples of setting this property, and how it affects the layout of the page.-->
+
+<!--`align-self` - this property allows you to overwrite the value of `align-items` for particular elements. It accepts the same values as `align-items`.-->
+
+<!--`flex-basis` - This lets you manually set the size of a flexbox element's content box. At first glance it may seem like it's synonymous with the `width` property, but this isn't always the case. For more details, read [this Stack Overflow question](https://stackoverflow.com/questions/34352140/what-are-the-differences-between-flex-basis-and-width) .-->
+
+<!--`flex-grow` - This lets you set proportional sizes of flex items within the same container. For example, an element with a `flex-grow` value of 2 will take up twice as much space as an element with a `flex-grow` value of 1.-->
+
+<!--`flex-shrink` - Similar to `flex-grow`, but for shrinking elements when there's not enough space. A useful demo of this property is available at [CSS Tricks](https://css-tricks.com/almanac/properties/f/flex-shrink/) .-->
+
+<!--`flex` - This is a shorthand which lets you set `flex-grow`, `flex-shrink`, and `flex-basis` all in one line (similar to the `border` property, which lets you set `border-width`, `border-style`, and `border-color`).-->
+
+<!--`flex-wrap` - When items in a flex container get too wide, what should happen? This property lets you tell the browser whether it should allow flex elements to wrap onto a new line, or whether they should just shrink in order to fit on the same line. Fore more on this, [check out MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap) .-->
+
+<!--There are some great tools available if you're interested in learning more about flexbox. Check out the exercises for more!-->
+
+<!--When you're ready, move on to Layout Exercise--><p></p><br>
+                    
+
+                    <div style="display: flex; justify-content: flex-end; align-items: center;">
+                        <a href="http://learn.di-learning.com/courses/collection/40/course/166/section/521/chapter/1032#breadcrumbs" class="btn btn-info mb-2">Back to Top</a>
+                    </div>
+
+                    <div>
+                        <hr>
+                        <h1><a name="Feedback">Feedback</a></h1>
+                        <p>Tell us what you thought about  the chapter: 🎓Flexbox</p>
+                        <div id="feedback" class="cui-embed" style="height: 300px; width: 100%;" data-cui-uid="Gp6szZ" data-cui-avatar="https://images.typeform.com/images/KV5BWnKMavQp" data-cui-mode="widget" data-cui-pill-button-color="#000000" data-cui-injected="true"><iframe class="cui-embed-frame" id="cui-Gp6szZ" src="./flexbox-eg_files/Gp6szZ.html" frameborder="0" height="100%" width="100%" style="display: block; z-index: 2147483647;"></iframe></div><script src="./flexbox-eg_files/embed.js.download" async=""></script>
+                    </div>
+                    
+                
+
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="footer">
+    <div class="uk-grid-collapse uk-grid uk-grid-stack" uk-grid="">
+        <div class="uk-width-expand@s uk-first-column">
+            <p>© 2020 <strong>Developers Institute</strong>. All Rights Reserved. </p>
+        </div>
+        <div class="uk-width-auto@s uk-grid-margin uk-first-column">
+            <nav class="footer-nav-icon">
+                <ul>
+                    <li><a href="https://www.facebook.com/developers.institute/" target="_blank"><i class="icon-brand-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/developers.institute/" target="_blank"><i class="icon-brand-instagram"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UC-qcXcEsoBSSpYvj5DqoMDQ/featured" target="_blank"><i class="icon-brand-youtube"></i></a></li>
+                    <li><a href="https://twitter.com/devtlv" target="_blank"><i class="icon-brand-twitter"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+    
+</div>
+
+<div class="uk-width-1-4@m uk-overflow-hidden vidlist-3-container">
+    <div uk-sticky="" class="uk-sticky uk-active uk-sticky-fixed uk-sticky-below" style="position: fixed; top: 0px; width: 330px;">
+        <h5 class="bg-gradient-grey text-white py-4 p-3 mb-0">CSS Intermediate</h5>
+        
+            <div class="progress">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%; background:#17d292; font-size:1.2em; color: #949393; font-weight:bold;">
+                    <span style="padding-left: 15px;" id="progress-bar-text">0% Complete</span>
+                </div>
+            </div>
+        
+
+        <ul class="uk-child-width-expand mb-0 uk-tab" uk-switcher="animation: uk-animation-slide-right-small, uk-animation-slide-left-small" uk-tab="">
+            <li class="uk-active"></li>
+        </ul>
+
+        <ul class="uk-switcher uk-overflow-hidden" style="touch-action: pan-y pinch-zoom;">
+            <li class="uk-active">
+                <div class="vidlist-3-content" data-simplebar="init"><div class="simplebar-wrapper" style="margin: 0px;"><div class="simplebar-height-auto-observer-wrapper"><div class="simplebar-height-auto-observer"></div></div><div class="simplebar-mask"><div class="simplebar-offset" style="right: -17px; bottom: 0px;"><div class="simplebar-content" style="padding: 0px; height: 100%; overflow: hidden scroll;">
+                    <ul class="vidlist-3-section uk-accordion" uk-accordion="">
+
+                        
+
+                        <li class="uk-open">
+                            <a class="uk-accordion-title" href="http://learn.di-learning.com/courses/collection/40/course/166/section/521/chapter/1032#"> Course Notes </a>
+                            <div class="uk-accordion-content" aria-hidden="false">
+                                <ul class="vidlist-3">
+                                    
+                                    
+                                    <li>
+                                        <a class="chapter_notes" href="http://learn.di-learning.com/courses/collection/40/course/166/section/521/chapter/474">
+                                            <div id="chapter_id_474" class="chapter-title">🎥Critical Render Path</div>
+                                            <div class="chapter-attributes">
+                                                <span class="badge"> </span>
+                                                <span class="badge badge-outline-primary">5 XP</span>
+                                                
+                                                
+                                                <span id="status_chapter_id_474" class="badge badge-outline-success" data-toggle="tooltip" title="Done"><i class="fa fa-check-circle" aria-hidden="true"></i></span>
+                                                
+                                                
+                                                
+                                            </div> 
+                                        </a>
+                                    </li>
+                                    
+                                    
+                                    
+                                    <li>
+                                        <a class="chapter_notes" href="http://learn.di-learning.com/courses/collection/40/course/166/section/521/chapter/1029">
+                                            <div id="chapter_id_1029" class="chapter-title">🎓Display</div>
+                                            <div class="chapter-attributes">
+                                                <span class="badge"> </span>
+                                                <span class="badge badge-outline-primary">5 XP</span>
+                                                
+                                                
+                                                <span id="status_chapter_id_1029" class="badge badge-outline-success" data-toggle="tooltip" title="Done"><i class="fa fa-check-circle" aria-hidden="true"></i></span>
+                                                
+                                                
+                                                
+                                            </div> 
+                                        </a>
+                                    </li>
+                                    
+                                    
+                                    
+                                    <li>
+                                        <a class="chapter_notes" href="http://learn.di-learning.com/courses/collection/40/course/166/section/521/chapter/1030">
+                                            <div id="chapter_id_1030" class="chapter-title">🎓Floats</div>
+                                            <div class="chapter-attributes">
+                                                <span class="badge"> </span>
+                                                <span class="badge badge-outline-primary">5 XP</span>
+                                                
+                                                
+                                                <span id="status_chapter_id_1030" class="badge badge-outline-success" data-toggle="tooltip" title="Done"><i class="fa fa-check-circle" aria-hidden="true"></i></span>
+                                                
+                                                
+                                                
+                                            </div> 
+                                        </a>
+                                    </li>
+                                    
+                                    
+                                    
+                                    <li>
+                                        <a class="chapter_notes" href="http://learn.di-learning.com/courses/collection/40/course/166/section/521/chapter/1031">
+                                            <div id="chapter_id_1031" class="chapter-title">🎓Positioning</div>
+                                            <div class="chapter-attributes">
+                                                <span class="badge"> </span>
+                                                <span class="badge badge-outline-primary">5 XP</span>
+                                                
+                                                
+                                                <span id="status_chapter_id_1031" class="badge badge-outline-success" data-toggle="tooltip" title="Done"><i class="fa fa-check-circle" aria-hidden="true"></i></span>
+                                                
+                                                
+                                                
+                                            </div> 
+                                        </a>
+                                    </li>
+                                    
+                                    
+                                    
+                                    <li>
+                                        <a class="chapter_notes" href="http://learn.di-learning.com/courses/collection/40/course/166/section/521/chapter/475">
+                                            <div id="chapter_id_475" class="chapter-title">🎓Exercise File: Code-Along Images</div>
+                                            <div class="chapter-attributes">
+                                                <span class="badge"> </span>
+                                                <span class="badge badge-outline-primary">5 XP</span>
+                                                
+                                                
+                                                <span id="status_chapter_id_475" class="badge badge-outline-success" data-toggle="tooltip" title="Done"><i class="fa fa-check-circle" aria-hidden="true"></i></span>
+                                                
+                                                
+                                                
+                                            </div> 
+                                        </a>
+                                    </li>
+                                    
+                                    
+                                    
+                                    <li>
+                                        <a class="chapter_notes" href="http://learn.di-learning.com/courses/collection/40/course/166/section/521/chapter/476">
+                                            <div id="chapter_id_476" class="chapter-title">🎥Flexbox</div>
+                                            <div class="chapter-attributes">
+                                                <span class="badge"> </span>
+                                                <span class="badge badge-outline-primary">5 XP</span>
+                                                
+                                                
+                                                <span id="status_chapter_id_476" class="badge badge-outline-success" data-toggle="tooltip" title="Done"><i class="fa fa-check-circle" aria-hidden="true"></i></span>
+                                                
+                                                
+                                                
+                                            </div> 
+                                        </a>
+                                    </li>
+                                    
+                                    
+                                    
+                                    <li class="chapter-active">
+                                        <a class="chapter_notes" href="http://learn.di-learning.com/courses/collection/40/course/166/section/521/chapter/1032">
+                                            <div id="chapter_id_1032" class="chapter-title">🎓Flexbox</div>
+                                            <div class="chapter-attributes">
+                                                <span class="badge"> </span>
+                                                <span class="badge badge-outline-primary">5 XP</span>
+                                                
+                                                
+                                                <span id="status_chapter_id_1032" class="badge badge-outline-secondary" data-toggle="tooltip" title="Not Completed"><i class="fa fa-check-circle" aria-hidden="true"></i></span>
+                                                
+                                                
+                                                
+                                            </div> 
+                                        </a>
+                                    </li>
+                                    
+                                    
+                                    
+                                    <li>
+                                        <a class="chapter_notes" href="http://learn.di-learning.com/courses/collection/40/course/166/section/521/chapter/478">
+                                            <div id="chapter_id_478" class="chapter-title">🎥CSS 3</div>
+                                            <div class="chapter-attributes">
+                                                <span class="badge"> </span>
+                                                <span class="badge badge-outline-primary">5 XP</span>
+                                                
+                                                
+                                                <span id="status_chapter_id_478" class="badge badge-outline-secondary" data-toggle="tooltip" title="Not Completed"><i class="fa fa-check-circle" aria-hidden="true"></i></span>
+                                                
+                                                
+                                                
+                                            </div> 
+                                        </a>
+                                    </li>
+                                    
+                                    
+                                    
+                                    <li>
+                                        <a class="chapter_notes" href="http://learn.di-learning.com/courses/collection/40/course/166/section/521/chapter/480">
+                                            <div id="chapter_id_480" class="chapter-title">🎥Responsive UI</div>
+                                            <div class="chapter-attributes">
+                                                <span class="badge"> </span>
+                                                <span class="badge badge-outline-primary">5 XP</span>
+                                                
+                                                
+                                                <span id="status_chapter_id_480" class="badge badge-outline-secondary" data-toggle="tooltip" title="Not Completed"><i class="fa fa-check-circle" aria-hidden="true"></i></span>
+                                                
+                                                
+                                                
+                                            </div> 
+                                        </a>
+                                    </li>
+                                    
+                                    
+                                    
+                                    <li>
+                                        <a class="chapter_notes" href="http://learn.di-learning.com/courses/collection/40/course/166/section/521/chapter/481">
+                                            <div id="chapter_id_481" class="chapter-title">🎓Exercise-files : Images Gallery</div>
+                                            <div class="chapter-attributes">
+                                                <span class="badge"> </span>
+                                                <span class="badge badge-outline-primary">5 XP</span>
+                                                
+                                                
+                                                <span id="status_chapter_id_481" class="badge badge-outline-secondary" data-toggle="tooltip" title="Not Completed"><i class="fa fa-check-circle" aria-hidden="true"></i></span>
+                                                
+                                                
+                                                
+                                            </div> 
+                                        </a>
+                                    </li>
+                                    
+                                    
+                                    
+                                    <li>
+                                        <a class="chapter_notes" href="http://learn.di-learning.com/courses/collection/40/course/166/section/521/chapter/1041">
+                                            <div id="chapter_id_1041" class="chapter-title">🎓Responsive Design</div>
+                                            <div class="chapter-attributes">
+                                                <span class="badge"> </span>
+                                                <span class="badge badge-outline-primary">5 XP</span>
+                                                
+                                                
+                                                <span id="status_chapter_id_1041" class="badge badge-outline-secondary" data-toggle="tooltip" title="Not Completed"><i class="fa fa-check-circle" aria-hidden="true"></i></span>
+                                                
+                                                
+                                                
+                                            </div> 
+                                        </a>
+                                    </li>
+                                    
+                                    
+                                    
+                                    <li>
+                                        <a class="chapter_notes" href="http://learn.di-learning.com/courses/collection/40/course/166/section/521/chapter/1042">
+                                            <div id="chapter_id_1042" class="chapter-title">🎓Responsive Units and Tips</div>
+                                            <div class="chapter-attributes">
+                                                <span class="badge"> </span>
+                                                <span class="badge badge-outline-primary">5 XP</span>
+                                                
+                                                
+                                                <span id="status_chapter_id_1042" class="badge badge-outline-secondary" data-toggle="tooltip" title="Not Completed"><i class="fa fa-check-circle" aria-hidden="true"></i></span>
+                                                
+                                                
+                                                
+                                            </div> 
+                                        </a>
+                                    </li>
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                </ul>
+                            </div>
+                        </li>
+                        
+                        <li>
+                            <a class="uk-accordion-title" href="http://learn.di-learning.com/courses/collection/40/course/166/section/521/chapter/1032#"> Exercises </a>
+                            <div class="uk-accordion-content" hidden="" aria-hidden="true">
+                                <ul class="vidlist-3">
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                        <li>
+                                            <a class="chapter_exercise" href="http://learn.di-learning.com/courses/collection/40/course/166/section/521/chapter/1821">
+                                                <div id="chapter_id_1821" class="chapter-title">Layout and Flexbox Review</div>
+                                                <div class="chapter-attributes">
+                                                    <span class="badge"> </span>
+                                                    <span class="badge badge-outline-primary">5 XP</span>
+                                                    <span class="badge badge-outline-warning">XP</span>
+                                                    
+                                                    
+                                                    <span id="status_chapter_id_1821" class="badge badge-outline-secondary" data-toggle="tooltip" title="Not Completed"><i class="fa fa-check-circle" aria-hidden="true"></i></span>
+                                                    
+                                                    
+                                                    
+                                                </div> 
+                                            </a>
+                                        </li>
+                                        
+                                    
+                                        
+                                        <li>
+                                            <a class="chapter_exercise" href="http://learn.di-learning.com/courses/collection/40/course/166/section/521/chapter/1034">
+                                                <div id="chapter_id_1034" class="chapter-title">Exercise XP #1 : Float</div>
+                                                <div class="chapter-attributes">
+                                                    <span class="badge"> </span>
+                                                    <span class="badge badge-outline-primary">5 XP</span>
+                                                    <span class="badge badge-outline-warning">XP</span>
+                                                    
+                                                    
+                                                    <span id="status_chapter_id_1034" class="badge badge-outline-secondary" data-toggle="tooltip" title="Not Completed"><i class="fa fa-check-circle" aria-hidden="true"></i></span>
+                                                    
+                                                    
+                                                    
+                                                </div> 
+                                            </a>
+                                        </li>
+                                        
+                                    
+                                        
+                                        <li>
+                                            <a class="chapter_exercise" href="http://learn.di-learning.com/courses/collection/40/course/166/section/521/chapter/1043">
+                                                <div id="chapter_id_1043" class="chapter-title">Exercise XP #2 : Media Queries</div>
+                                                <div class="chapter-attributes">
+                                                    <span class="badge"> </span>
+                                                    <span class="badge badge-outline-primary">5 XP</span>
+                                                    <span class="badge badge-outline-warning">XP</span>
+                                                    
+                                                    
+                                                    <span id="status_chapter_id_1043" class="badge badge-outline-secondary" data-toggle="tooltip" title="Not Completed"><i class="fa fa-check-circle" aria-hidden="true"></i></span>
+                                                    
+                                                    
+                                                    
+                                                </div> 
+                                            </a>
+                                        </li>
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                        <li>
+                                            <a class="chapter_exercise" href="http://learn.di-learning.com/courses/collection/40/course/166/section/521/chapter/1035">
+                                                <div id="chapter_id_1035" class="chapter-title">Exercise XP #3 : Flexbox</div>
+                                                <div class="chapter-attributes">
+                                                    <span class="badge"> </span>
+                                                    <span class="badge badge-outline-primary">8 XP</span>
+                                                    <span class="badge badge-outline-warning">XP Gold</span>
+                                                    
+                                                    
+                                                    <span id="status_chapter_id_1035" class="badge badge-outline-secondary" data-toggle="tooltip" title="Not Completed"><i class="fa fa-check-circle" aria-hidden="true"></i></span>
+                                                    
+                                                    
+                                                    
+                                                </div> 
+                                            </a>
+                                        </li>
+                                        
+                                    
+                                        
+                                        <li>
+                                            <a class="chapter_exercise" href="http://learn.di-learning.com/courses/collection/40/course/166/section/521/chapter/482">
+                                                <div id="chapter_id_482" class="chapter-title">Exercise: Robot Animation</div>
+                                                <div class="chapter-attributes">
+                                                    <span class="badge"> </span>
+                                                    <span class="badge badge-outline-primary">8 XP</span>
+                                                    <span class="badge badge-outline-warning">XP Gold</span>
+                                                    
+                                                    
+                                                    <span id="status_chapter_id_482" class="badge badge-outline-secondary" data-toggle="tooltip" title="Not Completed"><i class="fa fa-check-circle" aria-hidden="true"></i></span>
+                                                    
+                                                    
+                                                    
+                                                </div> 
+                                            </a>
+                                        </li>
+                                        
+                                    
+                                        
+                                        <li>
+                                            <a class="chapter_exercise" href="http://learn.di-learning.com/courses/collection/40/course/166/section/521/chapter/483">
+                                                <div id="chapter_id_483" class="chapter-title">Exercise: Robot Animation Starter File</div>
+                                                <div class="chapter-attributes">
+                                                    <span class="badge"> </span>
+                                                    <span class="badge badge-outline-primary">8 XP</span>
+                                                    <span class="badge badge-outline-warning">XP Gold</span>
+                                                    
+                                                    
+                                                    <span id="status_chapter_id_483" class="badge badge-outline-secondary" data-toggle="tooltip" title="Not Completed"><i class="fa fa-check-circle" aria-hidden="true"></i></span>
+                                                    
+                                                    
+                                                    
+                                                </div> 
+                                            </a>
+                                        </li>
+                                        
+                                    
+                                        
+                                        <li>
+                                            <a class="chapter_exercise" href="http://learn.di-learning.com/courses/collection/40/course/166/section/521/chapter/484">
+                                                <div id="chapter_id_484" class="chapter-title">Solution: Robot Animation</div>
+                                                <div class="chapter-attributes">
+                                                    <span class="badge"> </span>
+                                                    <span class="badge badge-outline-primary">8 XP</span>
+                                                    <span class="badge badge-outline-warning">XP Gold</span>
+                                                    
+                                                    
+                                                    <span id="status_chapter_id_484" class="badge badge-outline-secondary" data-toggle="tooltip" title="Not Completed"><i class="fa fa-check-circle" aria-hidden="true"></i></span>
+                                                    
+                                                    
+                                                    
+                                                </div> 
+                                            </a>
+                                        </li>
+                                        
+                                    
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                        
+                                    
+                                </ul>
+                            </div>
+                        </li>
+
+                        
+
+                        
+
+                        
+
+                        
+
+                        
+                    </ul>
+                </div></div></div><div class="simplebar-placeholder" style="width: 330px; height: 973px;"></div></div><div class="simplebar-track simplebar-horizontal" style="visibility: hidden;"><div class="simplebar-scrollbar" style="transform: translate3d(0px, 0px, 0px); visibility: hidden;"></div></div><div class="simplebar-track simplebar-vertical" style="visibility: visible;"><div class="simplebar-scrollbar" style="height: 166px; transform: translate3d(0px, 0px, 0px); visibility: visible;"></div></div></div>
+            </li>
+        </ul>
+    </div><div class="uk-sticky-placeholder" style="height: 491px; margin: 0px;"></div>
+</div>
+
+<!-- small device icon video sidebar -->
+<span class="btn-vidlist-3" uk-toggle="target: #wrapper; cls: is-open"></span>
+
+<script>
+    // Removes empty accordians in right sidebar
+    let accordion_contents = document.getElementsByClassName("uk-accordion-content");
+    //Can't loop through and remove elements from array without controlling for length change
+    for(let i = 0; i < accordion_contents.length; i++){
+        content = accordion_contents[i].getElementsByTagName("li")
+        if (!content.length) {
+            accordion_contents[i].parentNode.remove();
+            i--;  
+        }
+    }
+</script>
+
+<script>
+    // Update Markdown Tables to Bootstrap Tables - Jonathan
+    [].forEach.call(document.getElementsByTagName("table"), function (el) {el.className += "table table-striped table-bordered"});
+</script>
+
+<script>
+    // Auto Build TOC from H1 - H6 Components in 'chapter-contents' div - Jonathan
+    let make_toc = function(){
+        var toc = "";
+        var level = 0;
+
+        document.getElementById("chapter-contents").innerHTML =
+            document.getElementById("chapter-contents").innerHTML.replace(
+                /<h([\d])>([^<]+)<\/h([\d])>/gi,
+                function (str, openLevel, titleText, closeLevel) {
+                    if (openLevel != closeLevel) {
+                        return str;
+                    }
+
+                    if (openLevel > level) {
+                        toc += (new Array(openLevel - level + 1)).join("<ul>");
+                    } else if (openLevel < level) {
+                        toc += (new Array(level - openLevel + 1)).join("</ul>");
+                    }
+
+                    level = parseInt(openLevel);
+
+                    var anchor = titleText.replace(/ /g, "_");
+                    toc += "<li><a href=\"#" + anchor + "\">" + titleText
+                        + "</a></li>";
+
+                    return "<h" + openLevel + "><a name=\"" + anchor + "\">"
+                        + titleText + "</a></h" + closeLevel + ">";
+                }
+            );
+
+        if (level) {
+            toc += (new Array(level + 1)).join("</ul>");
+        }
+
+        document.getElementById("toc").innerHTML += toc;
+    };
+    window.setTimeout(function(){make_toc()}, 0)
+    
+</script>
+
+<script>
+    // Typeform element hijacks focus when it loads. No way to control it. 
+    // So we hide it until it has fully loaded, then display it.
+    let load_feedback = function(){
+        document.getElementById("feedback").removeAttribute("hidden")
+    }
+
+    // To trigger a click on the correct chapter. This will open the accordion to correct location.
+    let run_target = function(){
+        chapter_id="1032"
+        if (chapter_id == "") {
+            let accordion = document.querySelector(".vidlist-3-section > li > a")
+            accordion.click()
+            return;
+        }
+        click_target = document.getElementById('chapter_id_'+chapter_id)
+        click_target.closest("li").classList.add('chapter-active');
+        click_target.closest(".uk-accordion-content").previousElementSibling.click();
+    }    
+
+    window.addEventListener('load',function(){
+        load_feedback()
+    })
+
+    // JMS HACK: DOMContentLoaded isn't reliable here. Probably because of this weird template renders.
+    // And load event is too slow for good UX.
+    // So... fudging it using a setTimeout 0.  Thoughts?
+    window.setTimeout(function(){run_target()}, 0)
+
+
+
+  /*
+  Checking Course
+  */
+  window.addEventListener('load',function(){
+
+    // Cookie is supposed to be added before every ajax request
+    // This happens in lib/js/script.js in the Ajax setup "beforSend"
+    // But its buggy and doesn't always send. I tested it by making the target view csrf exempt
+    //... so I'm explicitly adding the cookie in the ajax data body
+    function getCookie(name) {
+      var cookieValue = null;
+      if (document.cookie && document.cookie != '') {
+        var cookies = document.cookie.split(';');
+        for (var i = 0; i < cookies.length; i++) {
+          var cookie = jQuery.trim(cookies[i]);
+          if (cookie.substring(0, name.length + 1) == (name + '=')) {
+            cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+            break;
+          }
+        }
+      }
+      return cookieValue;
+    }
+    var csrftoken = getCookie('csrftoken');
+
+    configure_modal()
+
+    const submit_button = document.getElementById('chapter-submit');
+    if (submit_button) {
+        submit_button.addEventListener('click', ()=>{
+            modal_get_submission()
+        })
+    }
+
+    function configure_modal(){
+        const modal_id = 'submit_exercise'
+        const modal = build_modal({
+            header  : "<h5 class='modal-title'>Mandatory Exercise Submission</h5>", 
+            body    : "<strong>Code Url:</strong>\
+                       <input class='form-control' id='exercise_url' name='exercise_url' placeholder='Enter Github link to your code'> \
+                        <div class='row clearfix justify-content-center mt-4'>\
+                            <div class='col-12'>\
+                                <strong>Difficulty</strong>\
+                                <p class='text-muted'>Was this exercise at the appropriate level for your skillset?</p>\
+                                <div class='slider-container '>\
+                                    <div style='display:flex; justify-content:space-evenly; margin: 0 -15px;'>\
+                                        <span>0</span><span>ı</span><span>ı</span><span>ı</span><span>ı</span><span>5</span><span>ı</span><span>ı</span><span>ı</span><span>ı</span><span>10</span>\
+                                    </div>\
+                                    <input type='range' id='difficulty' name='difficulty' class='slider' min='0' max='10'>\
+                                </div>\
+                            </div>\
+                        </div>\
+                        <div class='row clearfix justify-content-center mt-4'>\
+                            <div class='col-12'>\
+                                <strong>Clarity</strong>\
+                                <p class='text-muted'>Were the instructions and language understandable?</p>\
+                                <div class='slider-container '>\
+                                    <div style='display:flex; justify-content:space-evenly; margin: 0 -15px;'>\
+                                        <span>0</span><span>ı</span><span>ı</span><span>ı</span><span>ı</span><span>5</span><span>ı</span><span>ı</span><span>ı</span><span>ı</span><span>10</span>\
+                                    </div>\
+                                    <input type='range' id='clarity' name='clarity' class='slider' min='0' max='10'>\
+                                </div>\
+                            </div>\
+                        </div>\
+                        <div class='row clearfix justify-content-center mt-4'>\
+                            <div class='col-12'>\
+                                <strong>Relevance</strong>\
+                                <p class='text-muted'>Did this exercise reinforce ideas from today's lesson?</p>\
+                                <div class='slider-container '>\
+                                    <div style='display:flex; justify-content:space-evenly; margin: 0 -15px;'>\
+                                        <span>0</span><span>ı</span><span>ı</span><span>ı</span><span>ı</span><span>5</span><span>ı</span><span>ı</span><span>ı</span><span>ı</span><span>10</span>\
+                                    </div>\
+                                    <input type='range' id='relevance' name='relevance' class='slider' min='0' max='10'>\
+                                </div>\
+                            </div>\
+                        </div>\
+                        <div class='row clearfix justify-content-center mt-4'>\
+                            <div class='col-12'>\
+                                <strong>Time Taken</strong>\
+                                <p class='text-muted'>Approximately how long did you spend on this exercise?</p>\
+                                <select class='form-control' id='time_taken' name='time_taken'>\
+                                    <option value='< 10'>Less than 10 minutes</option>\
+                                    <option value='10-20'>10 - 20 minutes</option>\
+                                    <option value='20-30'>20 - 30 minutes</option>\
+                                    <option value='30-40'>30 - 40 minutes</option>\
+                                    <option value='40-50'>40 - 50 minutes</option>\
+                                    <option value='50-60'>50 minutes to 1 hour</option>\
+                                    <option value='> 60'>More than 1 hour</option>\
+                                </select>\
+                            </div>\
+                        </div>\
+                        <div class='row clearfix  mt-4'>\
+                            <div class='col-12'>\
+                                <strong>Comments</strong>\
+                                <p class='text-muted'>Let us know your thoughts about this exercise. What did you like? What did you dislike? What can we improve??</p>\
+                                <div class='slider-container '>\
+                                    <textarea id='comment' name='comment' rows='4' maxlength='250' style='resize: none;' class='form-control'></textarea>\
+                                </div>\
+                            </div>\
+                        </div>",
+            footer  : "<button id='modal_btn_cancel' class='btn btn-secondary' data-dismiss='modal'>Cancel</button>\
+                    <button id='modal_btn_submit' class='btn btn-success'>Submit</button>", 
+            new_id  : modal_id 
+        })
+
+        modal_get_submission = () => {
+            modal.modal('show');
+        }
+
+        isValidHttpUrl = (string) => {
+            let url;
+            try {
+                url = new URL(string);
+            } catch (_) {
+                return false;  
+            }
+
+            return url.protocol === "http:" || url.protocol === "https:";
+        }
+
+        const yes_callback = () => {
+            const token = 'tqYsS6raZKKrcemcgORtxw93VH4XOOXpeTfGhqdw5dUkRF4IR9bgWvR928XDdsKg';
+            const chapter_id = $('#chapter-submit').attr('chapter-id')
+            const data = getAllInputValuesInModal(modal_id)
+            data['collection_id'] = "40";
+            data['course_id'] = "166";
+            data['section_id'] = "521";
+            data['chapter_id'] = "1032";
+            data['csrfmiddlewaretoken'] = 'tqYsS6raZKKrcemcgORtxw93VH4XOOXpeTfGhqdw5dUkRF4IR9bgWvR928XDdsKg';
+            if (!isValidHttpUrl(data['exercise_url'])) {
+                alert("Please enter a valid URL!")
+                return
+            }
+
+            $.ajax({
+                headers: { "X-CSRFToken": token },
+                url: "/courses/submit_chapter/",
+                type: 'POST',
+                data: JSON.stringify(data),
+                success: function (json) {
+                    console.log(json)
+                    submit_button.innerText = "Pending"
+                    submit_button.className='btn btn-warning'
+                    modal.modal('hide');
+                },
+                error: function (xhr, errMsg, err) {
+                    alert('Something went wrong!');
+                    console.log(errMsg, err);
+                }
+            })
+            
+        }
+
+
+        $("#modal_btn_submit").on("click", function(){
+            yes_callback();
+        });
+
+        $("#modal_btn_cancel").on("click", function(){
+            modal.modal('hide');
+        });
+
+    }
+    
+    $('#chapter-done').on('click', function () {
+      let chapter_id = $('#chapter-done').attr('chapter-id')
+      let section_id = $('#chapter-done').parent().attr('section-id')
+      
+      $.ajax({
+        url: '/courses/completed_chapter/',
+        type: 'POST',
+        data: {
+          'chapter_id': chapter_id,
+          'section_id': section_id,
+          csrfmiddlewaretoken: 'tqYsS6raZKKrcemcgORtxw93VH4XOOXpeTfGhqdw5dUkRF4IR9bgWvR928XDdsKg'
+        },
+        success: function (data) {
+          checkOrUncheck(chapter_id);
+          updateProgressBar(data['progress']);
+        },
+        error: function (xhr, errMsg, err) {
+          alert('Whoops, something went wrong!\n\nRefresh the page and try again.');
+          console.log(errMsg, err);
+        }
+      })
+    })
+  
+    function updateProgressBar(progress){
+        const progress_bar = document.getElementsByClassName('progress-bar')[0]
+        progress_bar.style.width = progress+"%"
+        document.getElementById('progress-bar-text').innerText = progress+"% Complete"
+    }
+
+    function checkOrUncheck(chapter_id) {
+      let button = $('#chapter-done');
+      let badge = $('#status_chapter_id_' + chapter_id);
+      
+      if ($('#chapter-done').attr('done') == 1) {
+        button.removeClass('btn-success').addClass('btn-secondary').attr('done', '0').text('Not Completed');
+        badge.removeClass('badge-outline-success').addClass('badge-outline-secondary')
+      } else {
+        button.removeClass('btn-secondary').addClass('btn-success').attr('done', '1').text('Done');
+        badge.removeClass('badge-outline-secondary').addClass('badge-outline-success')
+      }
+    }
+
+    // Show the buttons when ready
+    $('#chapter-submit').show()
+    $('#chapter-done').show()
+  })
+  
+</script>
+
+
+
+        
+    
+        
+    <!-- To use a modal, simply include this filec and then call buildmodal, passing in your desired options for 
+    header, body, footer, borders_off and new_id (so that it doesn't clash with other modals) -->
+    
+    
+    <div class="modal fade" id="submit_exercise" tabindex="-1" data-backdrop="static" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><h5 class="modal-title">Mandatory Exercise Submission</h5></div>
+                <div class="modal-body"><strong>Code Url:</strong>                       <input class="form-control" id="exercise_url" name="exercise_url" placeholder="Enter Github link to your code">                         <div class="row clearfix justify-content-center mt-4">                            <div class="col-12">                                <strong>Difficulty</strong>                                <p class="text-muted">Was this exercise at the appropriate level for your skillset?</p>                                <div class="slider-container ">                                    <div style="display:flex; justify-content:space-evenly; margin: 0 -15px;">                                        <span>0</span><span>ı</span><span>ı</span><span>ı</span><span>ı</span><span>5</span><span>ı</span><span>ı</span><span>ı</span><span>ı</span><span>10</span>                                    </div>                                    <input type="range" id="difficulty" name="difficulty" class="slider" min="0" max="10">                                </div>                            </div>                        </div>                        <div class="row clearfix justify-content-center mt-4">                            <div class="col-12">                                <strong>Clarity</strong>                                <p class="text-muted">Were the instructions and language understandable?</p>                                <div class="slider-container ">                                    <div style="display:flex; justify-content:space-evenly; margin: 0 -15px;">                                        <span>0</span><span>ı</span><span>ı</span><span>ı</span><span>ı</span><span>5</span><span>ı</span><span>ı</span><span>ı</span><span>ı</span><span>10</span>                                    </div>                                    <input type="range" id="clarity" name="clarity" class="slider" min="0" max="10">                                </div>                            </div>                        </div>                        <div class="row clearfix justify-content-center mt-4">                            <div class="col-12">                                <strong>Relevance</strong>                                <p class="text-muted">Did this exercise reinforce ideas from today's lesson?</p>                                <div class="slider-container ">                                    <div style="display:flex; justify-content:space-evenly; margin: 0 -15px;">                                        <span>0</span><span>ı</span><span>ı</span><span>ı</span><span>ı</span><span>5</span><span>ı</span><span>ı</span><span>ı</span><span>ı</span><span>10</span>                                    </div>                                    <input type="range" id="relevance" name="relevance" class="slider" min="0" max="10">                                </div>                            </div>                        </div>                        <div class="row clearfix justify-content-center mt-4">                            <div class="col-12">                                <strong>Time Taken</strong>                                <p class="text-muted">Approximately how long did you spend on this exercise?</p>                                <select class="form-control" id="time_taken" name="time_taken">                                    <option value="&lt; 10">Less than 10 minutes</option>                                    <option value="10-20">10 - 20 minutes</option>                                    <option value="20-30">20 - 30 minutes</option>                                    <option value="30-40">30 - 40 minutes</option>                                    <option value="40-50">40 - 50 minutes</option>                                    <option value="50-60">50 minutes to 1 hour</option>                                    <option value="&gt; 60">More than 1 hour</option>                                </select>                            </div>                        </div>                        <div class="row clearfix  mt-4">                            <div class="col-12">                                <strong>Comments</strong>                                <p class="text-muted">Let us know your thoughts about this exercise. What did you like? What did you dislike? What can we improve??</p>                                <div class="slider-container ">                                    <textarea id="comment" name="comment" rows="4" maxlength="250" style="resize: none;" class="form-control"></textarea>                                </div>                            </div>                        </div></div>
+                <div class="modal-footer"><button id="modal_btn_cancel" class="btn btn-secondary" data-dismiss="modal">Cancel</button>                    <button id="modal_btn_submit" class="btn btn-success">Submit</button></div>
+            </div>
+        </div>
+      </div>
+      
+      <script>
+      
+      build_modal = (options = {}) => {
+          current_id = ('current_id' in options) ? options['current_id'] : "modal"
+          new_id = options['new_id'] ? options['new_id'] : current_id
+          $("#"+current_id).attr('id', new_id)
+      
+          if ('fade' in options && !options['fade']) $("#"+new_id).removeClass('fade')
+      
+          if ('header' in options) $("#"+new_id + " " + ".modal-header").html(options['header'])
+          if ('body' in options) $("#"+new_id + " " + ".modal-body").html(options['body'])
+          if ('footer' in options) $("#"+new_id + " " + ".modal-footer").html(options['footer'])
+          if (options['borders_off']) {
+              $("#"+new_id + " " + ".modal-header").css('border-bottom', 'none')
+              $("#"+new_id + " " + ".modal-footer").css('border-top', 'none')
+          }
+          return $("#"+new_id)
+      }
+      
+      
+      // Helper function to get all data submitted in modal
+      getAllInputValuesInModal = (modal_id) =>  {
+          var obj = {};
+      
+          $('#'+modal_id + ' ' + ':input').each(function(){
+              var key = $(this).attr('id');
+              var type = $(this).prop("type");
+              // checked radios/checkboxes
+              if ((type == "checkbox" || type == "radio") && this.checked) {
+                  obj[key] = $(this).val();
+                  //return arr;
+              }
+              // all other fields, except buttons
+              else if (type != "button" && type != "submit") {
+                  obj[key] = $(this).val();
+                  //return arr;
+              }
+          });
+          return obj;
+      }
+      
+      </script>
+      
+
+
+    </div>
+
+
+
+    <style>
+        .flex-wrapper {
+            display: flex;
+            flex-flow: row nowrap;
+        }
+
+        .single-chart {
+            width: 33%;
+            justify-content: space-around;
+        }
+
+        .circular-chart {
+            display: block;
+            margin: 10px auto;
+            max-width: 80%;
+            max-height: 250px;
+        }
+
+        .circle-bg {
+            fill: none;
+            stroke: #eee;
+            stroke-width: 3.8;
+        }
+
+        .circle {
+            fill: none;
+            stroke-width: 2.8;
+            stroke-linecap: round;
+            animation: progress 1s ease-out forwards;
+        }
+
+        @keyframes progress {
+            0% {
+                stroke-dasharray: 0 100;
+            }
+        }
+
+        .circular-chart.orange .circle {
+            stroke: #ff9f00;
+        }
+
+        .circular-chart.green .circle {
+            stroke: #4CC790;
+        }
+
+        .circular-chart.blue .circle {
+            stroke: #3c9ee5;
+        }
+
+        .percentage {
+            fill: #666;
+            font-family: sans-serif;
+            font-size: 0.5em;
+            text-anchor: middle;
+        }
+    </style>
+
+    <!-- javaScripts (async defer )
+    ================================================== -->
+    <script src="./flexbox-eg_files/framework.js.download"></script>
+    <script src="./flexbox-eg_files/jquery-3.3.1.min.js.download"></script>
+    <script src="./flexbox-eg_files/simplebar.js.download"></script>
+    <script src="./flexbox-eg_files/main.js.download"></script>
+    <script src="./flexbox-eg_files/bootstrap-select.min.js.download"></script>
+    <script src="./flexbox-eg_files/bootstrap.min.js.download"></script> 
+    <script src="./flexbox-eg_files/script.js.download"></script> 
+
+    
+<script type="text/javascript" src="./flexbox-eg_files/shCore.js.download"></script>
+<script type="text/javascript" src="./flexbox-eg_files/shBrushJScript.js.download"></script>
+<script type="text/javascript" src="./flexbox-eg_files/shBrushXml.js.download"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.all()
+</script>
+
+<script src="./flexbox-eg_files/highlight.min.js.download"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+</div></div><div id="backtotop" class="visible uk-animation-slide-bottom"><a href="http://learn.di-learning.com/courses/collection/40/course/166/section/521/chapter/1032#"></a></div></body></html>
