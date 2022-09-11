@@ -11,10 +11,8 @@ body {
 #nav {
 	border: 0 solid;
 	background-color: #968CE7;
-	float: left;
-	width: 100%;
-	padding: 5px 5px;
-
+	content: 25px 25px;
+	width: 50%;
 }
 
 #content {
