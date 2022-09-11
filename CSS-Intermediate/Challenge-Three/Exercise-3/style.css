@@ -3,22 +3,38 @@ body {
 	margin: 0 auto;
 }
 
-.heading {
-	width: 100%;
-}
-
-col {
-	
-	width: 15%;
-	height: inherit;
-	display: inherit;
-}
-
-.heading, .col-left, .col-mid, .col-right {
+div {
 	border: 3px solid black;
 }
 
-.col-right {
-	background-color: orange;
+.col {
+	width: 31%;
+	height: 200px;
+	margin-left: 2.1%;
+	display: inline-block;
+}
+
+.heading {
+	background-color: green;
+	width: 99%;
+	height: 200px;
+	margin-bottom: 30px;
+}
+
+.col img {
+	width: 100%;
+	height: inherit;
+}
+
+.col-left {
+	background-color: red;
 	margin-left: 0;
+}
+
+.col-mid {
+	background-color: orange;
+}
+
+.col-right {
+	background-color: lightblue;
 }
