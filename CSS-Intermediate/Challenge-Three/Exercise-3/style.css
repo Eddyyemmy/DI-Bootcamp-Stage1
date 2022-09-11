@@ -38,3 +38,7 @@ div {
 .col-right {
 	background-color: lightblue;
 }
+
+section {
+	margin-bottom: 40px;
+}
