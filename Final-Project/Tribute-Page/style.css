@@ -1,0 +1,58 @@
+body {
+	width: auto;
+}
+
+nav {
+	background-color: lightblue;
+	border: 1px solid;
+	margin-left: -12px;
+	margin-right: -12px;
+	margin-top: -5px;
+	height: 40px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+}
+
+li {
+	padding-top: 10px;
+	font-weight: bold;
+}
+
+a:active {
+	background-color: darkgreen;
+}
+
+a:hover {
+	background-color: #ffff;
+}
+
+.container {
+	background-color: #9f9f9f;
+	padding-top: 25px;
+
+}
+
+h3, p {
+	color: black;
+	text-align: justify;
+	padding-left: 10px;
+}
+
+h2 {
+	text-align: center;
+
+}
+.logo {
+
+	display: block;
+	margin-top: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
